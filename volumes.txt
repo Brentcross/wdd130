@@ -1,5 +1,0 @@
-The current date is 2023-01-05 19:56:30.925742
-The Width is 250
-The Aspect Ratio is 60
-The Diameter is 15
-The Volume is 62.56
