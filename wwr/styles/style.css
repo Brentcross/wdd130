@@ -4,6 +4,8 @@ div::content{
 }
 nav a{
     text-align: center;
+    color: black;
+    text-decoration: none;
 }
 #hero-msg h1{
     text-align: center;
@@ -25,7 +27,7 @@ section{
     background-color: #08415c;
 }
 body{
-    background-color: #08415c;
+    background-color: #388bb1;
 }
 header{
     background-color: #f1bf98;
@@ -33,22 +35,43 @@ header{
 }
 nav a:hover{
     background-color: #3a3fcb;
+    color: beige;
 }
 .book{
     background-color: gray;
+    color: darkmagenta;
+    text-decoration: none;
 }
 .join{
     background-color: gray;
+    color: darkmagenta;
+    text-decoration: none;
 }
 .book:hover{
     background-color: #6b818c;
+    color: currentColor;
 }
 .join:hover{
     background-color: #6b818c;
+    color: currentColor;
 }
 .msg{
     background-color: #6b818c;
+    color: #3a3fcb;
 }
 footer{
     background-color: #f1bf98;
+    color: #6b818c;
+}
+footer a{
+    text-decoration: none;
+}
+.icon{
+    width: 80px;
+}
+#hero-img{
+    width: 100%;
+}
+footer p a:hover{
+    text-decoration: underline;
 }
