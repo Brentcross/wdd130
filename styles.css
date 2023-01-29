@@ -3,14 +3,17 @@ background-color: steelblue;
 padding: 10px;
 text-align: center;
 color: white;
+padding: 25px;
 }
 a {
     color: white;
     margin: 40px;
+    padding: 25px;
   }
 h1 {
   color: steelblue;
   text-align: center;
+  margin: 50px 0;
 }
 img {
   width: 800px;
@@ -25,6 +28,7 @@ p {
 footer {
   background-color: steelblue;
   color: white;
+  padding: 25px;
 }
 .main-para {
     font-size: 1.5em;
