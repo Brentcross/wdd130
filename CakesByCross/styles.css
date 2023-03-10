@@ -28,7 +28,7 @@
     align-items: center;
   }
   header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -103,5 +103,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .photos {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+  
+  .photos img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
   }
   
