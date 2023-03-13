@@ -1,9 +1,4 @@
-:root {
-  --primary-color: #dd8585;
-  --secondary-color: #7baacc;
-  --accent-color-1: #ef8b6c;
-  --accent-color-2: #381d2a;
-}
+
 .circle-button {
   background-color: var(--primary-color);
   color: #fff;
