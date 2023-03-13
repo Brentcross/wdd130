@@ -4,14 +4,6 @@
   --accent-color-1: #ef8b6c;
   --accent-color-2: #381d2a;
 }
-body {
-  background-color: #dd8585;
-}
-body header{
-  background-color: #dd8585;
-  text-align: center;
-}
-
 .circle-button {
   background-color: var(--primary-color);
   color: #fff;
@@ -46,7 +38,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: var(--accent-color-2);
   z-index: 999;
   text-align: center;
 }
@@ -74,7 +66,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 200px;
+  margin-right: auto;
 }
 
 nav ul li:last-child {
@@ -154,4 +146,11 @@ body li{
 
 .right-photo {
   float: right;
+}
+body {
+  background-color: #dd8585;
+}
+body header{
+  background-color: #dd8585;
+  text-align: center;
 }
