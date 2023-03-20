@@ -1,0 +1,31 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Me!</h2>
+    <p>Feel free to send me a message and I will get to you as soon as possible</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="images/profile2.jpeg" style="width: 75%">
+    </div>
+    <div class="column">
+      <form action="send_email.php" method="post">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="hidden" name="recipient" value="crossm.brent@gmail.com">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
