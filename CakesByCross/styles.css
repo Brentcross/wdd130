@@ -74,27 +74,35 @@ nav ul li a:hover {
   color: var(--accent-color-1);
 }
 
-.circle-button {
-  background-color: var(--accent-color-2);
-  color: var(--primary-color);
-  border: none;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
+.button-boxes {
   display: flex;
   justify-content: center;
-  align-items: left;
-  margin: 20px;
-  transition: all 0.3s ease-in-out;
+}
+
+.circle-button {
+  border: none;
+  border-radius: 50%;
+  padding: 10px 20px;
+  background-color: var(--accent-color-1);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .circle-button:hover {
   background-color: var(--accent-color-2);
-  transform: scale(1.1);
+}
+
+#homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 75%;
+  bottom: 0;
+  top: 80%;
+  width: 150px; 
+  height: 100px; 
 }
 
 #contact {
@@ -162,6 +170,12 @@ h2{
   position: relative;
   background-origin: padding-box;
 }
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+  font-size: 36px;
+  font-weight: bold;
+} 
 
 main form{
   display: block;
@@ -191,20 +205,6 @@ body header{
   background-color: #381d2a;
   text-align: center;
 }
-@font-face {
-  font-family: 'Caveat';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/caveat/v17/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6eIGpYT5Kmgq3s84t.woff2) format('woff2');
-}
-  @font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNZVcf6hPvhPUWH.woff2) format('woff2');
-  }
   footer{
     text-align: center;
     position: relative;
@@ -214,3 +214,4 @@ body header{
     display: block;
     text-align: center;
   }
+  
