@@ -1,0 +1,122 @@
+/* stylesc.css */
+
+:root {
+    --primary-color: #dd8585;
+    --secondary-color: #7baacc;
+    --accent-color-1: #ef8b6c;
+    --accent-color-2: #381d2a;
+}
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    background-color: var(--primary-color);
+    margin: 0;
+}
+
+header {
+    background-color: var(--accent-color-2);
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: auto;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--accent-color-1);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: var(--accent-color-1);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    position: relative; 
+  }
+  
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    z-index: 1; 
+  }
+  
+  .photos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    z-index: 0; 
+  }
+  
+
+.photos img {
+    width: 300px;
+    height: 120%;
+    object-fit: cover;
+}
+
+#left-photo {
+    position: absolute;
+    left: 0;
+}
+
+#right-photo {
+    position: absolute;
+    right: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.button-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.circle-button {
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    background-color: var(--accent-color-1);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.circle-button:hover {
+    background-color: var(--accent-color-2);
+}
+
