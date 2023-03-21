@@ -9,9 +9,17 @@
 
 body {
     font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
     background-color: var(--primary-color);
     margin: 0;
-}
+  }
+  
+  h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 36px;
+    font-weight: bold;
+  }  
 
 header {
     background-color: var(--accent-color-2);
@@ -19,10 +27,6 @@ header {
     padding: 20px 0;
 }
 
-h1, h2 {
-    font-size: 36px;
-    font-weight: bold;
-}
 
 nav ul {
     display: flex;
@@ -79,10 +83,17 @@ main {
   }
   
 
-.photos img {
-    width: 300px;
-    height: 120%;
+  .photos img {
+    width: 15%;
+    height: 100%;
     object-fit: cover;
+}
+
+@media (max-width: 700px) {
+    .photos img {
+        width: 25%;
+        height: 25%;
+    }
 }
 
 #left-photo {
