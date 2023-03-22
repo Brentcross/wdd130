@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Merriweather:wght@700&display=swap");
+
+body {
+  font-family: 'Merriweather', serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #381D2A;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #EF8B6C 3px solid;
+}
+
+header h1 {
+  display: inline;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+}
+
+nav {
+  float: right;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  padding: 0 20px 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+}
+
+.photos img {
+  margin: 10px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.intro {
+  background-color: #DD8585;
+  border: 1px solid #EF8B6C;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin: 0 auto;
+}
+
+.left, .right {
+  background-color: #DD8585;
+  border: 1px solid #EF8B6C;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 30%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #381D2A;
+  color: white;
+  border-top: #EF8B6C 3px solid;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.button-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.circle-button {
+  display: inline-block;
+  background-color: #7BAACC;
+  color: white;
+  border-radius: 50%;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
