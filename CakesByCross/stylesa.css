@@ -1,0 +1,104 @@
+body {
+    background-color: #dd8585;
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+    color: #381d2a;
+  }
+  
+  header {
+    background: #381d2a;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: #ef8b6c 3px solid;
+  }
+  
+  header h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--header-link-color);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    color: var(--accent-color-1);
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .intro h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+  
+  .photo-container {
+    width: 66%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .center-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .bakers {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+  }
+  
+  .baker-info {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .baker-info h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #381d2a;
+    color: #fff;
+  }
+  
+  footer a {
+    color: #ef8b6c;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #dd8585;
+  }
+  

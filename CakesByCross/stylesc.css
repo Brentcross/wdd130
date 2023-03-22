@@ -1,5 +1,3 @@
-/* stylesc.css */
-
 :root {
     --primary-color: #dd8585;
     --secondary-color: #7baacc;
@@ -131,3 +129,15 @@ footer {
     background-color: var(--accent-color-2);
 }
 
+#homepage {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  #homepage:hover {
+    color: var(--accent-color-1);
+  }
