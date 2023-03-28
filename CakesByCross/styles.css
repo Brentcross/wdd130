@@ -18,13 +18,16 @@ header {
   text-align: center;
   border-bottom: var(--accent-color-1) 3px solid;
 }
-h2{
-  text-align: center;
-}
-h1, h2 {
+
+h1,
+h2 {
   font-family: 'Caveat', cursive;
   font-weight: 600;
   font-size: 36px;
+}
+
+h2 {
+  text-align: center;
 }
 
 nav ul {
@@ -33,6 +36,7 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+
 nav ul li {
   margin-right: auto;
 }
@@ -58,6 +62,36 @@ nav ul li a:hover {
   margin: 30px 0;
 }
 
+.circle-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  background-color: var(--accent-color-1);
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.circle-link:hover {
+  background-color: var(--accent-color-2);
+}
+
+.circle-text {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.circle-button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .circle-button {
   background-color: var(--accent-color-1);
   color: #fff;
@@ -78,7 +112,7 @@ nav ul li a:hover {
 }
 
 .circle-button:hover {
-  background-color: var(--accent-color-2);
+  background-color: var(--accent-color-);
 }
 
 .photos {
@@ -119,12 +153,7 @@ footer {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  transition: color 0.3s ease-in-out;
   display: inline-block;
-  margin-top: 10px;
+  text-align: unset;
+  
 }
-
-#homepage:hover {
-  color: var(--accent-color-1);
-}
-
