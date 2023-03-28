@@ -68,6 +68,8 @@ nav ul li a {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   width: 30%;
   margin: 0 auto;
+  text-align: center;
+  font-size: medium;
 }
 
 .left, .right {
